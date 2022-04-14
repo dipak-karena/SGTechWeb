@@ -1,0 +1,95 @@
+<!--start sidebar -->
+
+<aside class="sidebar-wrapper" ng-sidebar>
+    <div class="sidebar-header">
+        <div>
+            <img src="assets/images/SGTech-brand.png" class="logo-icon" alt="logo icon">
+        </div>
+        <div>
+            <h4 class="logo-text"><img src="" class="logo-icon" alt=""></h4>
+        </div>
+        <div class="toggle-icon ms-4" (click)="Onclick()"> <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <ngx-simplebar class="h-100">
+        <!--navigation-->
+
+        <ul class="metismenu">
+            <li>
+                <a routerLink="/dashboard" href="javascript:;">
+                    <div class="parent-icon">
+
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <div class="menu-title">Admin Dashboard</div>
+                </a>
+
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <div class="parent-icon"><i class="fa-solid fa-circle-user"></i>
+                    </div>
+                    <div class="menu-title">Account Management</div>
+                </a></li>
+            <li>
+                <a href="javascript:;">
+                    <div class="parent-icon"><i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="menu-title">Membership</div>
+                </a>
+
+
+                <ul>
+
+                    <li> <a routerLink="/membership/membership-pricing" href="javascript:;">Membership Pricing</a></li>
+                    <li> <a routerLink="/membership/membership-campaign" href="javascript:;">Membership Campaign</a>
+                    </li>
+                    <li> <a routerLink="/membership/membership-task-list" href="javascript:;">Membership Task List</a>
+                    </li>
+                    <li> <a href="javascript:;">Create Corporate Members</a></li>
+                    <li> <a href="javascript:;">View Corporate Members</a></li>
+                    <li> <a href="javascript:;">Create Individual Members</a></li>
+                    <li> <a href="javascript:;">View Individual Members</a></li>
+                    <li><a href="javascript:;">Entry Management</a></li>
+                    <li><a href="javascript:;">Create Entry</a></li>
+                    <li><a href="javascript:;">View/Edit Entry</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <div class="parent-icon"><i class="fa-solid fa-money-bill-transfer"></i>
+                    </div>
+                    <div class="menu-title">Over the Counter</div>
+                </a>
+
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <div class="parent-icon"><i class="fa-solid fa-people-group"></i>
+                    </div>
+                    <div class="menu-title">Chapter & Committee</div>
+                </a>
+                <ul>
+                    <li> <a href="javascript:;">Create Chapter and Committee</a></li>
+                    <li> <a href="javascript:;">Manage Chapter and Committee Exco</a> </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <div class="parent-icon"><i class="fa-solid fa-sack-dollar"></i>
+                    </div>
+                    <div class="menu-title">Financial</div>
+                </a>
+                <ul>
+                    <li> <a href="javascript:;">Membership Payment</a></li>
+                    <li> <a href="javascript:;">Booking Payment</a> </li>
+                    <li> <a href="javascript:;">Transaction Report</a></li>
+
+                </ul>
+            </li>
+        </ul>
+    </ngx-simplebar>
+    <!--end navigation-->
+</aside>
+
+<!--end sidebar -->

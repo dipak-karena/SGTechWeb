@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,  
+  defaultauth: 'fackbackend',
+  apiUrl: 'http://localhost:5400/',
 };

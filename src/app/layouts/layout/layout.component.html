@@ -1,0 +1,35 @@
+<!--
+  -->
+
+<!--start wrapper-->
+<div class="wrapper" id="mobiletoggle">
+  <!--start top header-->
+  <app-top-header></app-top-header>
+
+  <!--end top header-->
+
+  <!--start sidebar -->
+  
+  <app-sidebar (mobileMenuButtonClicked)="mobileMenuButtonClicked()"></app-sidebar>
+  <!--end sidebar -->
+
+  <!--start content-->
+  <main class="page-content">
+    <router-outlet></router-outlet>
+  </main>
+  <!--end page main-->
+
+
+
+  <!--Start Back To Top Button-->
+  <a href="javaScript:;" class="back-to-top"><i class="fa-solid fa-angle-up"></i></a>
+  <!--End Back To Top Button-->
+
+
+
+</div>
+<!--end wrapper-->
+
+<!-- Footer -->
+<footer>© SGTECH ALL RIGHTS RESERVED | POWERED BY FLYING CAPE
+</footer>
